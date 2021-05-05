@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(165, 158, 158);
+    text-align: center;
+    /* color: white; */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    height: 98vh;
+    width: 100%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-image */
+
+
+    background-image: url("https://source.unsplash.com/1600x800/?clock");
+    /* background-color: #cccccc; */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* opacity: 0.9; */
+  
+
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: 4px solid black;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 10px 5px;
+    cursor: pointer;
+    /* background-color: rgb(92, 83, 83); */
+   
+
+}
+button:hover{
+    background-color: rgb(70, 67, 67);
+    color:white;
+}
+
+#watch {
+    height: 55px;
+    width: 200px;
+    border: 5px solid rgb(248, 70, 6);
+    
+   
+    border-radius: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+   
+
+}
+
+span {
+    font-size:xx-large;
+    font-weight: 700;
+}
+.menu{
+    height: 35vh;
+    width: 40%;
+    border-radius: 19px;
+    border: 8px solid rgb(51, 15, 15);
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#time{
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+}
