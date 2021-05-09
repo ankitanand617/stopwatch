@@ -100,5 +100,8 @@ span {
         height: fit-content;
         width: 70%;
     }
+    #time{
+        display: none;
+    }
     }
 
